@@ -40,3 +40,9 @@ address {
 img {
   width: 100%;
 }
+
+.none {
+  display: none !important;
+}
+
+/* Для удобства скрывать блоки во время верстки */
