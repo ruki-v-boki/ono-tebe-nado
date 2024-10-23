@@ -16,8 +16,9 @@
   <header  class="header"  id="header">
     <nav  class="header__menu">
       <ul  class="header__links-list">
-        <li>
-          <a  href="#header">Главная</a>
+        <li  class="header__links-list-item_no-bullit">
+          <a  href="#header" 
+              class="header__link_active">Главная</a>
         </li>
         <li>
           <a  href="#lots">Посмотреть лоты</a>
@@ -28,13 +29,13 @@
       </ul>
     </nav>
     <div>
-      <a  class="logotype">
+      <a  class="header__logo">
         <img  src="./images/logo-black.svg" 
               alt="логотип аукциона">
       </a>
     </div>
-    <div  class="header__contacts">
-      <ul  class="header__contacts-list">
+    <address  class="address  header__address">
+      <ul  class="address-list">
         <li>
           <a  href="tel:+70000000">+9 999 555 5555</a>
         </li>
@@ -42,10 +43,10 @@
           <a  href="mailto:mail@example.com">info@sobaka.ge</a>
         </li>
         <li>
-          <address>наб. Принсенграхт 263- 265, Амстердам</address>
+          <p>наб. Принсенграхт 263- 265, Амстердам</p>
         </li>
       </ul>
-    </div>
+    </address>
   </header>
 
   <main>
@@ -60,7 +61,7 @@
       </h1>
       <div  class="cover__description">
         <p  class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
-        <button  class="bet-button">сделать ставку</button>
+        <button  type="button"  class="bet-button">сделать ставку</button>
       </div>
     </section>
 
@@ -68,10 +69,11 @@
       <h2  class="lots__heding">Лоты</h2>
       <ul  class="lots__card-list">
         <li  class="lots__card-list-item">
-          <a  href="#0"  class="card-link">
+          <a  href="#0" 
+              class="card-link">
             <article  class="card  card_type_film">
               <div  class="overlay"></div>
-              <h2  class="card__title">Фильм режиссёра, который бросил киношколу</h2>
+              <h3  class="card__title">Фильм режиссёра, который бросил киношколу</h3>
               <p  class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не
                 знали, что режиссёр — Пол Томас
                 Андерсон?</p>
@@ -79,10 +81,11 @@
           </a>
         </li>
         <li  class="lots__card-list-item">
-          <a  href="#0"  class="card-link">
+          <a  href="#0" 
+              class="card-link">
             <article  class="card  card_type_book">
               <div  class="overlay"></div>
-              <h2  class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h2>
+              <h3  class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
               <p  class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на
                 древнеанглийский. В ней одновременно
                 рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё
@@ -92,10 +95,11 @@
           </a>
         </li>
         <li  class="lots__card-list-item">
-          <a  href="#0"  class="card-link">
+          <a  href="#0" 
+              class="card-link">
             <article  class="card  card_type_picture">
               <div  class="overlay"></div>
-              <h2  class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h2>
+              <h3  class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
               <p  class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на
                 инфузорию-туфельку. Никаких полей, лесов,
                 котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ
@@ -104,10 +108,11 @@
           </a>
         </li>
       </ul>
-      <a  href="#0"  class="lots__look-more-link">Посмотреть больше</a>
+      <a  href="#0" 
+          class="lots__look-more-link">Посмотреть больше</a>
     </section>
 
-    <section class="about" id="about">
+    <section  class="about"  id="about">
       <div  class="about__column">
         <div  class="about__logo">
           <img  class="about__logo-image" 
@@ -141,8 +146,8 @@
 
   <footer  class="footer">
 
-    <div  class="footer__contacts">
-      <ul  class="footer__contacts-list">
+    <address  class="address">
+      <ul  class="address-list">
         <li>
           <a  href="tel:+70000000">+9 999 555 5555</a>
         </li>
@@ -150,17 +155,18 @@
           <a  href="mailto:mail@example.com">info@sobaka.ge</a>
         </li>
         <li>
-          <address>наб. Принсенграхт 263- 265, Амстердам</address>
+          <p>наб. Принсенграхт 263- 265, Амстердам</p>
         </li>
       </ul>
-    </div>
+    </address>
     <nav  class="footer__menu">
-      <ul  class="footer__links-list">
-        <li>
-          <a  href="#header">Главная</a>
+      <ul  class="footer__menu-list">
+        <li  class="footer__links-list-item_no-bullit">
+          <a  href="#header" 
+              class="footer__link_active">Главная</a>
         </li>
         <li>
-          <a href="#lots">Посмотреть лоты</a>
+          <a  href="#lots">Посмотреть лоты</a>
         </li>
         <li>
           <a  href="#about">об аукционе</a>
@@ -172,7 +178,7 @@
         <a  href="https://youtube.com" 
             target="_blank"
             class="footer__social-link">
-            <img  class="footer__social-icon"
+            <img  class="footer__social-icon" 
                   src="./images/yt.svg" 
                   alt="youtube иконка">
         </a>
@@ -181,7 +187,7 @@
         <a  href="https://vk.com" 
             target="_blank" 
             class="footer__social-link">
-            <img  class="footer__social-icon"
+            <img  class="footer__social-icon" 
                   src="./images/vk.svg" 
                   alt="vk иконка">
         </a>
